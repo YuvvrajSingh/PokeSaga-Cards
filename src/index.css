@@ -1,13 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Bangers&display=swap");
+
 body {
+  background-color: #f0f0f0;
+  font-family: "Baloo Thambi 2", cursive;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  font-size: 60px;
+  font-family: "Bangers", cursive;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 20em;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  background-color: #ed7266;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.info {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+}
+
+.pokemon-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.pokemon-name {
+  font-size: 30px;
+  color: #333;
+  font-family: "Bangers", cursive;
+  margin-bottom: 10px;
+}
+
+.info-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-item {
+  display: flex;
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.info-label {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.info-value {
+  color: #333;
+  font-size: 20px;
 }
