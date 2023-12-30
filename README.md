@@ -2,6 +2,8 @@
 
 Welcome to PokeSaga-Cards, a React application that showcases Pokemon cards with information about each Pokemon. This is my first React project leverages React components to create a visually appealing display of Pokemon cards, complete with Pokemon images, names, and key stats.
 
+![PokeSaga-Cards Screenshot](./src/Screenshot%20(142).png)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
